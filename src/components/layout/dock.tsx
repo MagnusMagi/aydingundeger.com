@@ -25,9 +25,10 @@ export function Dock() {
         const dock = dockRef.current;
         if (!dock) return;
 
+        const isMobile = window.innerWidth < 768;
         const isTouch = window.matchMedia("(hover: none)").matches;
 
-        if (isTouch) {
+        if (isTouch || isMobile) {
             // Simple scale in/out for focus if needed, or just return
             // For touch, we generally want no magnifying effect as it's confusing
             return;
