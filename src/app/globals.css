@@ -153,3 +153,26 @@ body {
   -webkit-backdrop-filter: blur(24px);
   backdrop-filter: blur(24px);
 }
+
+@utility bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, var(--color-ocean-deep-200) 1px, transparent 1px);
+}
+
+.dark .bg-grid-pattern {
+  background-image: radial-gradient(circle, var(--color-ocean-deep-800) 1px, transparent 1px);
+}
+
+@theme {
+  --animate-gradient-bp: background-pan 3s linear infinite;
+
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+
+    to {
+      background-position: -200% center;
+    }
+  }
+}
