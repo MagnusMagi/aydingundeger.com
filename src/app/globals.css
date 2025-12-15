@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  --font-sans: var(--font-space-grotesk);
+  --font-display: var(--font-space-grotesk);
+
   /* Map Custom Colors to Tailwind Defaults */
   --color-ocean-deep-50: var(--color-slate-50);
   --color-ocean-deep-100: var(--color-slate-100);
