@@ -82,10 +82,10 @@ export function Dock() {
     }, { scope: dockRef });
 
     return (
-        <div className="fixed bottom-6 md:bottom-8 left-1/2 z-50 -translate-x-1/2 print:hidden pb-[env(safe-area-inset-bottom)]">
+        <div className="fixed bottom-4 md:bottom-8 left-1/2 z-50 -translate-x-1/2 print:hidden pb-[env(safe-area-inset-bottom)] max-w-[95vw]">
             <div
                 ref={dockRef}
-                className="flex items-end gap-4 rounded-2xl border border-white/20 bg-white/30 px-4 py-3 shadow-2xl backdrop-blur-xl dark:border-ocean-deep-800/50 dark:bg-ocean-deep-900/30"
+                className="flex items-end gap-2 md:gap-4 rounded-2xl border border-white/20 bg-white/30 px-3 py-2 md:px-4 md:py-3 shadow-2xl backdrop-blur-xl dark:border-ocean-deep-800/50 dark:bg-ocean-deep-900/30 overflow-x-auto no-scrollbar"
             >
                 {dockItems.map((item, index) => (
                     <Link
@@ -93,12 +93,12 @@ export function Dock() {
                         href={item.href}
                         ref={(el) => { iconsRef.current[index] = el; }}
                         className={cn(
-                            "group relative flex aspect-square w-12 items-center justify-center rounded-xl bg-white/50 text-ocean-deep-600 shadow-sm transition-colors hover:bg-white dark:bg-ocean-deep-800/50 dark:text-ocean-deep-300 dark:hover:bg-ocean-deep-700",
+                            "group relative flex aspect-square w-10 md:w-12 flex-shrink-0 items-center justify-center rounded-xl bg-white/50 text-ocean-deep-600 shadow-sm transition-colors hover:bg-white dark:bg-ocean-deep-800/50 dark:text-ocean-deep-300 dark:hover:bg-ocean-deep-700",
                             "hover:text-fresh-sky-600 dark:hover:text-fresh-sky-400"
                         )}
                         aria-label={item.label}
                     >
-                        <item.icon className="h-6 w-6" />
+                        <item.icon className="h-5 w-5 md:h-6 md:w-6" />
 
                         {/* Tooltip */}
                         <span className="absolute -top-10 left-1/2 -translate-x-1/2 rounded-md bg-ocean-deep-900 px-2 py-1 text-xs font-medium text-white opacity-0 transition-opacity group-hover:opacity-100 dark:bg-ocean-deep-100 dark:text-ocean-deep-900 pointer-events-none whitespace-nowrap">
