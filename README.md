@@ -2,7 +2,7 @@
 
 A premium, high-performance personal portfolio website built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. Designed to showcase professional experience, technical skills, and projects with a focus on modern aesthetics, interactivity, and accessibility.
 
-![Portfolio Preview](public/og-image.jpg)
+![Portfolio Preview](https://raw.githubusercontent.com/MagnusMagi/aydingundeger.com/main/public/og-image.jpg)
 
 ## 🚀 Live Demo
 
@@ -36,7 +36,7 @@ A premium, high-performance personal portfolio website built with **Next.js 15**
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/aydingundeger/aydingundeger.com.git
+   git clone https://github.com/MagnusMagi/aydingundeger.com.git
    cd aydingundeger.com
    ```
 
