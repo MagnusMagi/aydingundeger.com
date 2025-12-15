@@ -11,11 +11,11 @@ A premium, high-performance personal portfolio website built with **Next.js 15**
 
 ![Portfolio Preview](https://raw.githubusercontent.com/MagnusMagi/aydingundeger.com/main/public/og-image.jpg)
 
-## 🚀 Live Demo
+## Live Demo
 
 [**https://aydingundeger.com**](https://aydingundeger.com)
 
-## ✨ Features
+## Features
 
 - **Premium UI/UX**: Custom design system with glassmorphism, ambient gradients, and a refined color palette (Deep Ocean & Fresh Sky).
 - **Advanced Animations**: High-performance scrolling and entrance animations powered by **GSAP** and **Framer Motion**.
@@ -27,7 +27,7 @@ A premium, high-performance personal portfolio website built with **Next.js 15**
 - **SEO Optimized**: Comprehensive metadata, OpenGraph tags, JSON-LD structured data, dynamic sitemap, and robots.txt.
 - **Accessible**: WCAG 2.1 compliant focus indicators, semantic HTML, and ARIA labels.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -39,7 +39,7 @@ A premium, high-performance personal portfolio website built with **Next.js 15**
 - **Deployment**: [Vercel](https://vercel.com/)
 - **Package Manager**: NPM
 
-## 🏃‍♂️ Getting Started
+## Getting Started
 
 1. **Clone the repository:**
    ```bash
@@ -62,7 +62,7 @@ A premium, high-performance personal portfolio website built with **Next.js 15**
    npm run build
    ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -82,6 +82,6 @@ src/
 └── lib/              # Data files and utilities
 ```
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
