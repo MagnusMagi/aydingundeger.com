@@ -125,6 +125,8 @@ body {
   background: transparent;
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 :focus-visible {
@@ -144,4 +146,9 @@ body {
   -ms-overflow-style: none;
   /* Firefox */
   scrollbar-width: none;
+}
+
+@utility glass-effect {
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
 }

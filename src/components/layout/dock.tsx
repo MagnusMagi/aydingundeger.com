@@ -85,7 +85,7 @@ export function Dock() {
         <div className="fixed bottom-4 md:bottom-8 left-1/2 z-50 -translate-x-1/2 print:hidden pb-[env(safe-area-inset-bottom)] max-w-[95vw]">
             <div
                 ref={dockRef}
-                className="flex items-end gap-2 md:gap-4 rounded-2xl border border-white/20 bg-white/30 px-3 py-2 md:px-4 md:py-3 shadow-2xl backdrop-blur-xl dark:border-ocean-deep-800/50 dark:bg-ocean-deep-900/30 overflow-x-auto no-scrollbar"
+                className="flex items-end gap-2 md:gap-4 rounded-2xl border border-white/20 bg-white/30 px-3 py-2 md:px-4 md:py-3 shadow-2xl glass-effect dark:border-ocean-deep-800/50 dark:bg-ocean-deep-900/30 overflow-x-auto no-scrollbar"
             >
                 {dockItems.map((item, index) => (
                     <Link
