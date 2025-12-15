@@ -1,5 +1,12 @@
 # Aydin Gundeger - Senior Software Engineer Portfolio
 
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-Animation-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+
 A premium, high-performance personal portfolio website built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. Designed to showcase professional experience, technical skills, and projects with a focus on modern aesthetics, interactivity, and accessibility.
 
 ![Portfolio Preview](https://raw.githubusercontent.com/MagnusMagi/aydingundeger.com/main/public/og-image.jpg)
